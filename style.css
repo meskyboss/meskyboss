@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+    box-shadow: 0 0 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    color: #1D3655;
+    
+
+}
+.title-container {
+    color: white;
+    background-image: url("torshov.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    box-shadow: 0 0 1px black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}   
+
+.intro {
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #427C9C;
+    margin: 10px auto 0px auto;
+}
+.sub-intro {
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #1D3655;
+    width: 300px;
+    margin: 10px auto 0 auto;
+}
+.flex {
+    color: #1D3655;
+    background-color: #F2FAEE;
+
+
+}
+
+.headline {
+    font-size: 18px;
+    padding-top: 20px;
+    margin-top: 0px;
+
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    
+    
+} 
+
+img.park {
+    width: 80px;
+    border-radius: 100px;
+}
+img.threatre {
+    width: 80px;
+    border-radius: 100px;
+}
+
+img.sport {
+    width: 80px;
+    border-radius: 100px;
+}
+h4, p {
+    
+    font-size: 15px;
+    width: 180px;
+}
+
+.card-img {
+    width: 180px;
+    padding: 15px 20px 15px 20px;
+}
+
+.card-text {
+    width: 200px;
+    text-align: center;
+    
+    
+
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    height: 210px;
+    margin: 20px auto;
+    background-color: #A7DBDB;
+    box-shadow: 0 5px 0 #1D3655;
+    color: #1D3655;
+    
+}
+
+@media screen and (min-width: 900px) {
+    
+    
+    .title-container {
+        
+        height: 400px;
+    
+    }
+
+    .intro {
+        font-size: 30px;
+        font-weight: bolder;
+
+        
+    }
+
+    .sub-intro {
+        font-size: 22px;
+        width: 380px;
+       
+    }
+
+    .headline {
+        font-size: 23px;
+    }
+
+
+    img.threatre {
+        width: 120px;
+        border-radius: 150px;
+    }
+    img.park {
+        width: 120px;
+        border-radius: 150px;
+    }
+    img.sport {
+        width: 120px;
+        border-radius: 150px;
+
+    }
+    h4, p {
+        font-size: 18px;
+        width: 200px;
+    }
+    .card {
+        width: 450px;
+        height: 250px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    body { 
+        width: 550px;
+    }
+
+    
+}
